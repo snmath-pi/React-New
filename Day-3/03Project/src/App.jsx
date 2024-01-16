@@ -12,14 +12,30 @@ function App() {
   let [counter, setCounter] = useState(0);
 
   const addValue = ()=> {
-    if(counter  + 1> 20) {
-      setCounter(counter)
-    }
-    else setCounter(counter + 1);
+    // if(counter  + 1> 20) {
+    //   setCounter(counter)
+    // }
+    // else setCounter(counter + 1);
     // counter  = counter + 1;
     // console.log(counter) // ye direct update nahi hogi ui mein
-    //kyunki ui react control karti hai
+    // kyunki ui react control karti hai
     // iske updation ke liye react ne special methods diye called react hookss
+
+
+    // ***********Interview Question
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+
+    // answer
+    setCounter(prevCounter => prevCounter +1);
+    setCounter(prevCounter => prevCounter +1);
+    setCounter(prevCounter => prevCounter +1);
+    setCounter(prevCounter => prevCounter +1);
+    setCounter(prevCounter => prevCounter +1);
   } 
 
   const removeValue = ()=> {
