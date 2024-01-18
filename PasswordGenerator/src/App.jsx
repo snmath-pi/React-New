@@ -9,7 +9,7 @@ function App() {
 
   // useRef hook
 
-  // const passwordRef = useRef(null);
+  const passwordRef = useRef(null);
   const passwordGenerator = useCallback(()=>{
     let pass = ""; let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
@@ -33,6 +33,8 @@ function App() {
   }, [length, numberAllowed, characters, setPassword]);
 
   const copyPasswordtoClipBoard = useCallback(()=>{
+    passwordRef.current?.select()
+    console.log(passwordRef)
     window.navigator.clipboard.writeText(password);
   }, [password])
 
@@ -65,7 +67,7 @@ function App() {
 
         onClick={copyPasswordtoClipBoard}
         className='
-        outline-none bg-blue-700 text-white px-3 py-0.1 shrink-0
+        outline-none bg-blue-700 text-white px-3 py-0.1 shrink-0 hover:cursor-cell
         '
         >Copy</button>
 
