@@ -1,0 +1,183 @@
+/* .student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.8);
+
+}
+
+.student p {
+  margin: 0;
+} */
+/* 
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0,0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin:0;
+}
+
+.list-items li:hover{
+  color:hsl(0, 0%, 45%);
+  cursor: pointer
+
+} */
+
+/* .counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.counter-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+}
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197, 100%, 58%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover{
+  background-color: hsl(197, 100%, 48%);
+} */
+
+
+/* Color Picker Exercise */
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid black;
+} */
+
+
+/* to-do-list */
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: hsl(120, 47%, 54%);
+}
+
+.add-button:hover{
+  background-color: hsl(120, 47%, 44%);
+}
+.delete-button {
+  background-color: hsl(10, 90%, 54%);
+}
+
+.delete-button:hover{
+  background-color: hsl(10, 90%, 44%);
+}
+
+.move-button {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover{
+  background-color: hsl(206, 90%, 54%);
+}
+
+input[type='text'] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  color: hsla(0, 0%, 0%, 0.5);
+
+}
+
+ol {
+  padding: 0;
+
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border: 3px solid black;
+}
